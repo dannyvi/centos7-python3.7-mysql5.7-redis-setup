@@ -5,9 +5,9 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 
 yum -y install epel-release
 
-wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+wget https://npm.taobao.org/mirrors/python/3.7.0/Python-3.7.0.tgz
 
-tar -zxvf Python-3.7.9.tgz
+tar -zxvf Python-3.7.0.tgz
 
 cd Python-3.7.0
 
