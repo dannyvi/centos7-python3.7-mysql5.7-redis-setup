@@ -6,6 +6,6 @@ wget http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 
 sudo rpm -Uvh mysql57-community-release-el7-9.noarch.rpm
 
-sudo yum -y install mysql-server
+sudo yum -y install mysql-server mysql-devel
 
 sudo systemctl start mysqld

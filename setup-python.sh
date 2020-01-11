@@ -5,11 +5,11 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 
 yum -y install epel-release
 
-wget https://npm.taobao.org/mirrors/python/3.7.0/Python-3.7.0.tgz
+wget https://npm.taobao.org/mirrors/python/3.7.4/Python-3.7.4.tgz
 
-tar -zxvf Python-3.7.0.tgz
+tar -zxvf Python-3.7.4.tgz
 
-cd Python-3.7.0
+cd Python-3.7.4
 
 ./configure prefix=/usr/local/python3
 make && make install
